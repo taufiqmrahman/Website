@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Connect | Taufiq Mustafizur Rahman</title>
+    <meta name="description" content="Get in touch with Taufiq Mustafizur Rahman - Social links and contact form.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Gotham Cityscape Background -->
+    <div class="gotham-bg">
+        <div class="gotham-skyline"></div>
+        <div class="gotham-fog"></div>
+        <div class="gotham-cloud cloud-1"></div>
+        <div class="gotham-cloud cloud-2"></div>
+        <div class="gotham-cloud cloud-3"></div>
+        <div class="gotham-cloud cloud-4"></div>
+        <div class="gotham-cloud cloud-5"></div>
+        <div class="spotlight spotlight-1"></div>
+        <div class="spotlight spotlight-2"></div>
+        <div class="bat-signal">
+            <img src="batsignal.png" alt="Bat Signal">
+        </div>
+    </div>
+
+    <!-- Bat Swarm Container -->
+    <div class="bat-swarm-container" id="batSwarm"></div>
+
+    <!-- Ambient Glow Blobs -->
+    <div class="glow-blob glow-blob-1"></div>
+    <div class="glow-blob glow-blob-2"></div>
+    <div class="glow-blob glow-blob-3"></div>
+
+    <!-- Animated Bats -->
+    <div class="bat-container">
+        <div class="bat bat-1"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c1.5-3 4.5-5 8-5h0c.5-2 1-3.5 2-5 1 1.5 1.5 3 2 5h0c3.5 0 6.5 2 8 5-0-5.5-4.5-10-10-10z" /></svg></div>
+        <div class="bat bat-2"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c1.5-3 4.5-5 8-5h0c.5-2 1-3.5 2-5 1 1.5 1.5 3 2 5h0c3.5 0 6.5 2 8 5-0-5.5-4.5-10-10-10z" /></svg></div>
+        <div class="bat bat-3"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c1.5-3 4.5-5 8-5h0c.5-2 1-3.5 2-5 1 1.5 1.5 3 2 5h0c3.5 0 6.5 2 8 5-0-5.5-4.5-10-10-10z" /></svg></div>
+        <div class="bat bat-4"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c1.5-3 4.5-5 8-5h0c.5-2 1-3.5 2-5 1 1.5 1.5 3 2 5h0c3.5 0 6.5 2 8 5-0-5.5-4.5-10-10-10z" /></svg></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">TMR</a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="connect.html" class="btn-nav">Let's Connect</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="contact" class="section" style="padding-top: 8rem;">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-container glassmorphism">
+                <div class="contact-info" id="socials">
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your
+                        visions.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/taufiqmrahman" target="_blank" class="social-icon social-github"><i
+                                class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/taufiq222/" target="_blank" class="social-icon social-linkedin"><i
+                                class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://www.facebook.com/Letthebatbewithyou" target="_blank" class="social-icon social-facebook"><i
+                                class="fa-brands fa-facebook"></i> Facebook</a>
+                        <a href="https://www.instagram.com/letthebatbewithyou/" target="_blank" class="social-icon social-instagram"><i
+                                class="fa-brands fa-instagram"></i> Instagram</a>
+                        <a href="https://letterboxd.com/darkknight_exe/" target="_blank" class="social-icon social-letterboxd"><i
+                                class="fa-solid fa-film"></i> Letterboxd</a>
+                        <a href="https://open.spotify.com/user/31wwhp4rhueq36bjptexk4fy2ndi?si=0b77aac83c774318"
+                            target="_blank" class="social-icon social-spotify"><i class="fa-brands fa-spotify"></i> Spotify</a>
+                        <a href="mailto:taufiq222003@gmail.com" class="social-icon social-email"><i class="fa-solid fa-envelope"></i>
+                            Email</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/xzdoprov" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary glow-btn" id="contactSubmitBtn">Send Message →</button>
+                    <p id="formStatus" style="margin-top: 1rem; font-size: 0.9rem; display: none;"></p>
+                </form>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="index.html" class="btn-secondary">← Back to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Taufiq Mustafizur Rahman. Built with <span
+                style="color: var(--accent-pink);">♥</span> and code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
